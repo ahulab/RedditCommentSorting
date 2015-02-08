@@ -1,0 +1,98 @@
+testplease dohmm good question maybe give it a google the process is very simple once you get the right files in order you need a usb because there is software provided by the boot camp utility that does not come with the software from onthehub it would be much easier if you use a usb borrow one from a friend or something* http://lmgtfycom/q=site%3aredditcom%2fr%2fprivacy+best+vpn
+* https://wwwredditcom/r/vpn/comments/2njegp/best_vpn_for_usa/
+* https://wwwredditcom/r/vpn/comments/2eitqd/best_nonlogging_vpn/
+* https://wwwredditcom/r/vpn/comments/2n499t/need_a_good_vpn_advice/
+* https://wwwredditcom/r/vpn/comments/2pw2gz/a_comparison_of_the_best_vpn_providers/
+
+sorry to be an ass it's just that you should have run a search first this question has been asked a thousand times it will still work fine yes they should be able to tell the traffic is yours though also they can try to block vpn connections but you should still be able to connect if your vpn service allows tunneling over https or something similari think he means to ask on my home network i have multiple computers is it possible to have only one of them connected to my vpn while the others are connected to the internet normally at least that's how i read it either way both scenarios are possible 
+as long as it is not clear if vpn companies will be considered providers it will be hard to say if  “notice-and-notice” systems will apply to them
+
+it doesn't seem like they have any reason to start logging until the legislation or interpretation gets more precise it looks like they are inferring they may have to start logging in the future thoughaw man i wish i could afford thisi think it's aes256 which is pretty secure if you chose a strong password make sure you're swap space is encrypted it should be if your on ubuntu 910 or higher you do full disk encryption if you want more securitythat would be included in the data yes everything is going thru the tunnel everything inside the tunnel is encrypted isp cannot see inside the tunnelisp just sees encrypted vpn connection/data from destination to source i'm in the same boat but my hardware is much more limited currently i have 3 vms up pfsense and two debian servers one with a desktop environment and one without i've installed lighttpd and dokuwiki on one to create my own wiki where i document things i've done on the lab i'm playing a lot with snort and other utilities in pfsense and i've just setup bind on a debian vm to serve as a dns server and cache to my lan i don't really have a plan or an aim but i think next i'll try and setup a monitrig solution for pfsense and the other vms and send syslogs to it you should do whatever you want with your setup that's just what i've done to give you some ideasneat thanks&gt; created further switches in the network that confuse it
+
+if people are plugging wireless routers into ethernet jacks it could cause issues if these routers are enabled by default to act as dhcp servers this creates a security concern for the network admins and can also create some network congestion because of the dhcp traffic coming from the ap 
+ 
+
+i know my university's network department cites this as a reason they do not allow students to use their own wireless routers in the past they have blocked ports for this reason they mark the issue as dhcp snooping
+
+
+
+
+this actually leads me to a question that maybe someone else can answer wouldn't this only be an issue if the wireless router was only acting as an access point in other words don't routers generally only act as dhcp servers on their lan and then use dhcp or some other method yo configure the ip address on their wan interfaceyesthanksthankswhy is it not good to use a span port is it because it consumes unnecessary resources on your firewall / routeredit: never mind i think that i was wrong here is another post talking about it though 
+
+http://wwwredditcom/r/tor/comments/2hujcn/can_we_start_an_indepth_technically_sound/
+
+and now he has a nice rackvery true :yes but those are just public ips that's not that bad at all actually plenty of hosts can sit behind one public ip if nat is implemented correctly
+
+here's a link if you're interested in reading about how that works http://enmwikipediaorg/wiki/network_address_translation
+you're going to have to elaboratejust to make if clearer they will still be able identify your traffic they just won't be able to decrypt itokay from my understanding then no unless the connection is over https then there isn't any further protection just a normal connection from vpn &gt; destination 
+
+
+that said the destination will not know that you personally are on the other end of the connection they will only see as far as the vpn provider i'm not really sure what you're asking 
+as far as your actual traffic goes there can be another layer of security added if you're browsing a site using https
+
+
+when you say beyond do you mean after your traffic leaves your vpn provider and is forwarded to its destinationplease dono one else has answered you yet so i'll give it a shot take this all with a grain of salt as i'm no expert 
+
+&gt; do you know why if i do ping 12700255 it works fine but ping 127255255255 asks me if i want to broadcast 
+
+127255255255 is the default broadcast address for a host on the 127000/8 network this it is just like how the broadcast address for a host on a 19216810/24 would be 1921681255 it is because the bits in the ip address are maxed out for that network that may not be the best way to phrase it  essentially the all 1s host address for any given subnet will be the broadcast address for that subnet in your case the network address is 127000 the subnet mask is 255000 and so the all 1s host address would be 127255255255 this is the way that ipv4 was designed to work
+
+12700255 is a valid host address for the 127000/24 network and so the icmp packet has a set destination ip address 
+
+this is similar to the way that broadcasts work at layer two the mac address ff:ff:ff:ff:ff:ff
+
+
+&gt;are the very first and very last addresses in the range treated as broadcast addresses 127000 and 127255255255
+
+in short no on the 127000/8 network 127000 is the network address and 127255255255 is the broadcast address 
+
+
+&gt; also what happens when i do ping 0000 it pings 127001 i would have thought it was a ping to the entire internet going by the above logic :d
+
+someone else could probably answer this better as i'm not entirely sure but 0000 is not a valid ip address in your routing table it generally points to the default gateway which is your route to the entire internet my impression is that the 0000 address can have several functions depending on the context for example if your machine is listening on 0000 it generally means that that socket is listening on all ip addresses of your machine but that is outside the scope of your question i think 
+
+
+hope that helpsinterest thanks for the expli don't understand how having nases on your network stops worms from going through you route all traffic on your lan between devices through the nases what if they are not running while a virus is trying to spreadlisten to security now i second this i am a student and these times would conflict with classes but i would still love to watch iti think that video put me in some sort of trance ukulelehuntcom
+
+ukulele underground forums
+
+dominators's website you'll have to google that one
+
+and theukulelereviewcom
+
+
+those should keep you busy for a whilein addition i've noticed that my cell phone and my laptop will send out probe requests when i open up the wifi manager they are already connected to my ap at that point as wellany suggestions for a router i just picked up two 2950s but i think i should probably grab a cheap router as wellnot even op but i really want to see the results and an analysis if you post onethanks you guys are super helpfulonly windows server kali xp ubuntu desktop and windows 7edit: i was able to find descriptions online nevermind
+
+ahhhh okay one of them is vmxnet 3 and one is e1000e would you mind explaining the difference is one virtual and one physical i am wondering if the admin set them that way for a reasoni have limited permissions in vsphere so i had to deploy a vm that i had access to and now i'm trying to install pfsense via an iso i know it's not ideal but unless one of the it guys makes a pfsense template for me unlikely this is my only optiondo you have a source for that because i don't think you are correctwould this require the attacker to have  recorded past sessions how could they decrypt past sessionswould past session keys remain on cloudflares servers somewhere 
+
+apologies if that question is dumb and/or nonsensicalwhatits on fox sports 2
+neatthe bread was fresh that morning so the white stuff is just flour the omelette does look a little moldy but i promise it's notdon't be so quick to assume and judge this generation as a college student i am hard pressed to think of even one peer that hasn't expressed the desire to get a job
+
+my point is that there is more at work here than an entire generation of teens that don't want jobs honestly did not expect that thanks for the laughi believe it was something along the lines of they messed with the wrong people or something just as cornythat's really nice makala's are pretty fun as well133763providing hardware for the next gen consoles is something everyone knows so you could assume that it's already priced into the stock 
+
+not to say that means its not a buy just that you may want to find more of a reason than just that whywant to 1:1 for the big mannno thanks
+i'll take the pillar of hatscurrently messaging you to buy keys
+not to be that guybut that didn't really seem depth hub worthy i mean i'd love to see more on that topic but those two hardly went very 'in depth' i fertilize with heirloom tomato and vegetable food when i first planted them all i mixed it in with the soil and since then i've only fertilized once and just mixed it in a little on top and then watered 
+
+as far as watering goes:
+i started watering everything daily and then was advised against doing that so now i've been watering the tomato plants and lettuce every other day and the rest of them i water even less often depending on how dry the soil feels i don't really know how to keep the plants from yellowing/dying/getting eaten they definitely get enough sun can't tell if i am overunderwatering them or what 
+
+sorry for the extra comment thanks eh it just bored me and felt a little outdated i have no doubt that it's informative just read a little slow for me i'm in the middle of it finding it more interesting than the intelligent investor so far 0671no thanks man3000strange rocket launcher for me addedwould you happen to have a strange rocket launcher with no parts will add you once the steam is working for s scattergun and s market gardeneri'll do it gimme a minute
+
+edit: took about 10 mins he's good for it09000900 bruhgeneral consensus is that the market is overbought and will see a pullback sometime soon if you're young then it matters less it wouldn't hurt to wait a little 
+
+but who knowsbut how can a computer interpret a headline and trade based on it without human inputanyone out there with programming knowledge to explain how that is even possible
+
+edit: thanks guysevernoteamazing how quickly reddit can go from appreciating a playful note on a scale to berating today's youth for having dreams so you want to raise your kid and everyday tell him/her no honey you won't amount to much switch hit when you're giving yourself the businessdid you buy pre or post earningswell it certainly acted independently from this rallyagreed gotta admire someone with a passion
+
+no cringe herewhycan someone explain how when buyouts occur that the share price always ends up right around what is being paid for it same thing happened with dell earlier this year is it because people buy until it hits that price also could the price go higher than that or less likely lower than that
+thankslink
+http://vegetarianaboutcom/od/vegetarianvegan101/tp/typesofveghtm
+
+yes i understand all of that but seeing as op isn't actually a vegetarian i figured he may not know there are different kinds so his definition of a vegetarian effects the answer to his question what definition of vegetarian are you using will you eat dairy eggs or fishnintendo 3ds and mario/zelda i know they're good games but i'd rather play xbox or go on the computer also the screen is worse than the one on my phone 
+
+i'd have sold it but gamestop would have only paid me $90 for it all i spent $230+lolthat's a fresh banana too /r/karmaconspiracy that actually isn't terrible adviceyeah but understanding it doesn't give him karmareally cold apples as well something about the contrast between hot water on your head and cold apple juice in your mouth is really desirable try it what happens when cthulhu clogs itquestion along the same lines why is it that i have a worse taste in my mouth on a morning after a night where i brush my teeth than a morning after one where i have not that's worded oddly but whatever you get the point
+
+i don't know if anyone else experiences this but i'm curious i thought it was bear grylls until more than halfway through i suppose it looks good this way as well thoughmy favorite games to do this were the portals even though you don't necessarily get any reward for exploring; the amount of easter eggs was incrediblethis is so damn clevercame here to make sure this was sarcasm satisfied with the result to be fair that applies to more than just religion especially considering all of the atheists that think/act that way well that worked out well for you
+i took my jacket off earlier and subconsciously thought about how much more i could carry and probably change his shoes a lotthese are so great the one that criticizes the way that schools are structured is my favorite one  i'd say skyrim you'll be in for less rage either is a good choice thoughjobs to a critic - what have you ever done that's so great
+everyone is so quick to judgebut it's oh so convenient to squeedgie 
