@@ -7,6 +7,7 @@ username = raw_input("Input your username: ")
 r = praw.Reddit("Comment Sorting for individual user")
 Redditor = r.get_redditor(username)
 
+# text
 
 allcomments = Redditor.get_comments(limit=None)
 
